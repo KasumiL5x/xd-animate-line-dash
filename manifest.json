@@ -1,0 +1,27 @@
+{
+  "name": "Animate Line Dash",
+  "host": {
+    "app": "XD",
+    "minVersion": "21.0"
+  },
+  "id": "76013168",
+  "icons": [{
+    "path": "images/icon@1x.png",
+    "width": 24,
+    "height": 24
+  }, {
+    "path": "images/icon@2x.png",
+    "width": 48,
+    "height": 48
+  }],
+  "uiEntryPoints": [{
+    "type": "menu",
+    "label": "Set single value",
+    "commandId": "aldSetCommand"
+  }, {
+    "type": "menu",
+    "label": "Print values to Developer Console",
+    "commandId": "aldPrintCommand"
+  }],
+  "version": "0.0.1"
+}
